@@ -45,7 +45,7 @@ function authorize(credentials, callback) {
       oauth2Client.credentials = JSON.parse(token);
       callback(oauth2Client);
     }
-  });
+  }); 
 }
 
 /**
